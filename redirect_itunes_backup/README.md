@@ -29,11 +29,11 @@ To restore the default backup location, you can either run the script again or m
 
 ### Script
 #### 1) Execute the script as described in the intitial instructions
-#### 2) When ased, do not input any letter and simply press enter
+#### 2) When asked, do not input any letter and simply press enter
 #### 3) Provided your backup (named `Backup_old_tmp`) can be found, the `Backup` junction will be deleted and backup renamed to restore the default location
 
 ### Manually
 #### 1) Using File Explorer or via Windows-key+R (Run) type: `%USERPROFILE%\Apple\MobileSync` (`%APPDATA%\Apple Computer\MobileSync` if the `legacy` script was used)
 #### 2) You should see `Backup` (note the shortcut symbol on the icon itself) and `Backup_old_tmp`
 #### 3) Provided you see the above, you can delete `Backup` (you can confirm it's the junction by clicking it and seeing whether it takes you to your external drive)
-#### 4) Rename `Backup_old_tmp` to simply `Backup`
+#### 4) Rename `Backup_old_tmp` to `Backup`
