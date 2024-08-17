@@ -4,9 +4,9 @@ The main script aims to simply create a directory junction within the user's `%U
 
 For now, this script only supports the Microsoft Store versions of [iTunes](https://apps.microsoft.com/detail/9pb2mz1zmb1s?rtc=2&activetab=pivot%3Aoverviewtab&hl=en-ca&gl=CA) or [Apple Devices](https://apps.microsoft.com/detail/9np83lwlpz9k?rtc=2&activetab=pivot%3Aoverviewtab&hl=en-ca&gl=CA).
 
-Download the script: [here](https://raw.githubusercontent.com/jaleezyy/misc-scripts/main/redirect_itunes_backup/redirect_itunes_backup.bat).
+Download the script (`Right-click --> Save Link As...`): [here](https://raw.githubusercontent.com/jaleezyy/misc-scripts/main/redirect_itunes_backup/redirect_itunes_backup.bat).
 
-An alternate script [here](https://raw.githubusercontent.com/jaleezyy/misc-scripts/main/redirect_itunes_backup/redirect_itunes_backup_legacy.bat) dubbed `legacy` can be used for the older, or non-Store versions of iTunes. 
+An alternate script (`Right-click --> Save Link As...`) [here](https://raw.githubusercontent.com/jaleezyy/misc-scripts/main/redirect_itunes_backup/redirect_itunes_backup_legacy.bat) dubbed `legacy` can be used for the older, or non-Store versions of iTunes. 
 
 ## Instructions
 
