@@ -20,9 +20,9 @@ set ffprobe=False
 
 
 rem Create the necessary output directory
-echo "Searching for %installLocation%
+echo "Searching for %installLocation%"
 if not exist %installLocation% (
-	echo "Creating directory: %installLocation%
+	echo "Creating directory: %installLocation%"
 	md %installLocation%
 	cd %installLocation%
 ) else (
