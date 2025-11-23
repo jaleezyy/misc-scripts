@@ -33,7 +33,27 @@ if not exist %installLocation% (
 rem Pre-existing bin indicates the script has already run, we can just provide the ending output
 if exist %binLocation% (
 	echo "FFMPEG already installed! Exiting..."
-	echo "Add the following line when linking to ffmpeg"
+	
+	if not exist %binLocation%\ffmpeg.exe (
+		echo "Missing ffmpeg.exe"
+	) else (
+		echo "Found ffmpeg.exe"
+		set ffmpeg=True
+	)
+	if not exist %binLocation%\ffplay.exe (
+		echo "Missing ffplay.exe"
+	) else (
+		echo "Found ffplay.exe"
+		set ffplay=True
+	)
+	if not exist %binLocation%\ffprobe.exe (
+		echo "Missing ffprobe.exe"
+	) else (
+		echo "Found ffprobe.exe"
+		set ffprobe=True
+	)
+	
+	echo "Add the following line when linking to ffmpeg if the above looks correct:"
 	echo "--ffmpeg-location %binLocation%"
 	echo "Place quotation marks around the filepath"
 	pause
@@ -90,7 +110,7 @@ if exist %binLocation% (
 )
 
 echo "FFMPEG successfully installed! Exiting..."
-echo "Add the following line when linking to ffmpeg"
+echo "Add the following line when linking to ffmpeg:"
 echo "--ffmpeg-location %binLocation"
 echo "Place quotation marks around the filepath"
 pause
